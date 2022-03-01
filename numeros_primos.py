@@ -8,8 +8,7 @@ def is_prime(a:int) -> bool:
             return False
         else:
             return True
-        
-            
+                    
 def run():
     print(is_prime(4))
 
