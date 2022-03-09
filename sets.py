@@ -17,7 +17,8 @@
 
 def run():
     lista = [1,2,3,4,4,6,"r",7,5,"r","a","b","b"]
-    print(set(lista))
-
+    lista_sin = set(lista)
+    lista = list(lista_sin)
+    print (lista)
 if __name__ == '__main__':
     run()
